@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a2e1fa;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #030337;
+}
