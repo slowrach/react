@@ -23,7 +23,7 @@ appointmentsRouter.post('/', (request, response) => {
     const appointment = createAppointment.execute({provider, date: parsedDate});
 
     return response.json(appointment);
-  } catch (err) {
+  } catch (err: any) {
     return response.status(400).json({error: err.message});
   }
 });
